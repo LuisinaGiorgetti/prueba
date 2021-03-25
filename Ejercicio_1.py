@@ -14,6 +14,8 @@ while (op!=0):
             print("La opción no es válida")
         else:
             break
+
+
     if (op==1):
         ingrediente=input("Ingresar ingrediente a borrar")
         if (ingrediente in ingredientes):
